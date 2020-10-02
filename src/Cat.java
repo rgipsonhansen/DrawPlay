@@ -19,11 +19,12 @@ public class Cat {
 	// mouth starts about 40% from left edge of head
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 * 3;
+
 	
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
 	{
-		Graphics2D g2 = (Graphics2D) g;
+				Graphics2D g2 = (Graphics2D) g;
 		int x=catX;
 		int y=catY;
 		// Draw the head
