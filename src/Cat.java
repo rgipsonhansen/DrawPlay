@@ -62,6 +62,6 @@ public class Cat {
 		g2.fillOval(x, y, MOUTH_WIDTH/2, MOUTH_HEIGHT/3);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
-		g2.drawString("Meow", catX, catY+HEAD_DIMENSION+10);	
+		g2.drawString("Woof", catX, catY+HEAD_DIMENSION+10);	
 	}
 }
